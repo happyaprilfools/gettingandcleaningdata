@@ -17,19 +17,19 @@ Each row contains, for a given subject and activity, 79 averaged signal measurem
 ## Identifiers
 
 subject
-
+---------
 Subject identifier, integer, ranges from 1 to 30.
 
 activity
-
+--------
 Activity identifier, string with 6 possible values:
 
-WALKING: subject was walking
-WALKING_UPSTAIRS: subject was walking upstairs
-WALKING_DOWNSTAIRS: subject was walking downstairs
-SITTING: subject was sitting
-STANDING: subject was standing
-LAYING: subject was laying
+WALKING: subject was walking                       |
+WALKING_UPSTAIRS: subject was walking upstairs     |
+WALKING_DOWNSTAIRS: subject was walking downstairs |
+SITTING: subject was sitting                       |
+STANDING: subject was standing                     |
+LAYING: subject was laying                         |
 
 Average of measurements
 
@@ -59,20 +59,20 @@ timeDomainBodyAccelerometerStandardDeviationY
 timeDomainBodyAccelerometerStandardDeviationZ
 
 Average time-domain gravity acceleration in the X, Y and Z directions:
-
+--------------------------------------------------------------------
 timeDomainGravityAccelerometerMeanX
 timeDomainGravityAccelerometerMeanY
 timeDomainGravityAccelerometerMeanZ
 
 Standard deviation of the time-domain gravity acceleration in the X, Y and Z directions:
-
+----------------------------------------------------------------------------------------
 timeDomainGravityAccelerometerStandardDeviationX
 timeDomainGravityAccelerometerStandardDeviationY
 timeDomainGravityAccelerometerStandardDeviationZ
 
 
 Average time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
-
+----------------------------------------------------------------------------------------------------------------
 timeDomainBodyAccelerometerJerkMeanX
 timeDomainBodyAccelerometerJerkMeanY
 timeDomainBodyAccelerometerJerkMeanZ
