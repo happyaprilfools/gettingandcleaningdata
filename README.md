@@ -6,14 +6,14 @@ It will also provide steps on running the R script in transforming the raw data 
 
 # References:
 
-Getting and Cleaning Data Assignment
+Project on Getting and Cleaning Data - Coursera - DOST - Module 3
 
 # Contents
 This section describes the contents of this repository.
 
 Filename       | Description
 -------------  | -------------
-README.md      | This File
+README.md      | Describes the content of the repository and steps in running tidy_data.
 CODEBOOK.md    | Describes the variables within the tidied dataset
 run_analysis.R | Analysis function of the raw data
 
@@ -28,15 +28,14 @@ It is assumed that the directory structure and file names of the extracted files
 # Steps
 To get the tidied data, please follow the following steps:
 
-1. Source the analysis function into R and run the function.
-
-source('<your default R working directory>/run_analysis.R'))
+a. Source the analysis function into R and run the function. -source('<your default R working directory>/run_analysis.R'))
 run_analysis()
-2. Once the function has completed running, you will see two output files - "tidied_data.csv" and "tidied_data.txt" - in your working directory. These files contain the same data and are presented in CSV and TXT formats.
+  
+b. Once the function has completed running, you will see one output file "tidy_data.txt" - in your working directory. 
 
-3. To read the files into R, please use the following functions:
+c. To read the files into R, please use the following functions:
 
-# Read text file
-read.table("tidied_data.txt", header=TRUE)
-# Read csv file
-read.csv("tidied_data.csv", header=TRUE)
+# Open and read text file
+read.table("tidy_data.txt", header=TRUE)
+
+# AAAR_happyaprilfools
