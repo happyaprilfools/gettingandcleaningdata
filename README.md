@@ -38,4 +38,4 @@ c. To read the files into R, please use the following functions:
 # Open and read text file
 read.table("tidy_data.txt", header=TRUE)
 
-AAAR_happyaprilfools
+*AAAR_happyaprilfools
